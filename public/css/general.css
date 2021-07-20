@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    /* colores */
+    --color-amarillo:#EAC926;
+    --color-Azul: #03264C;
+    --color-Celeste: #1259c3;
+    --color-Gris-oscuro: #666;
+    --color-Gris-claro: #ebebeb;
+    --color-Verde: #39b54a;
+    /* tipografias */
+    --font-texto: 12px;
+    --font-titulo-ulti:24px;
+    --font-precios:18px;
+    --font-descuentos:16px;
+    --font-descripciones:16px;
+    --font-family:'Roboto', sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body.home{
+    background-color: rgba(128, 128, 128, 0.097);
+}
+
+h1{
+    font-size:var(--font-titulo-ulti) ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+   font-size: var(--font-texto);
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.oferta{
+    font-size: var(--font-descuentos);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.precio{
+    font-size: var(--font-precios);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nombre-producto{
+    font-size: var(--font-descripciones);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
